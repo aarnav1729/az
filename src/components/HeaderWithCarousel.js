@@ -42,7 +42,7 @@ const HeaderWithCarousel = () => {
   }, []);
 
   return (
-    <header className="relative">
+    <header className="relative border-b border-gray-300">
       <nav
         className={`fixed w-full z-10 transition-all duration-300 ${
           isScrolled ? "bg-white shadow-md" : "bg-transparent"

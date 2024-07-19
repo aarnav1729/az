@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header className="fixed w-full z-10 bg-white shadow-md transition-all duration-300 ease-in-out">
+    <header className="fixed w-full z-10 bg-white shadow-md transition-all duration-300 ease-in-out border-b border-gray-300">
       <div className="container mx-auto flex justify-between items-center py-2">
         <div className="flex items-center">
           <Link to="/">
