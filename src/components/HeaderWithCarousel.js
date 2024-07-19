@@ -47,10 +47,10 @@ const HeaderWithCarousel = () => {
   return (
     <header className="relative">
       <nav className={`fixed w-full z-10 transition-all duration-300 ${isScrolled ? "bg-white shadow-md" : "bg-transparent"}`}>
-        <div className="container px-4 py-2 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           <div>
             <Link to="/">
-              <img src={logo} alt="ANZ Landscaping Company" className="h-10" />
+              <img src={logo} alt="ANZ Landscaping Company" className="h-24" />
             </Link>
           </div>
           <nav className="hidden md:flex items-center space-x-8 text-lg flex-1 justify-center">
@@ -60,7 +60,7 @@ const HeaderWithCarousel = () => {
             <a href="#projects" className={`hover:text-gray-500 ${isScrolled ? "text-black" : "text-white"}`}>Projects</a>
             <a href="#contact" className={`hover:text-gray-500 ${isScrolled ? "text-black" : "text-white"}`}>Contact Us</a>
           </nav>
-          <div className="hidden md:flex ml-auto items-center">
+          <div className="hidden md:flex items-center justify-end">
             <Link to="/" className="text-white bg-blue-600 px-4 py-2 rounded-full hover:bg-blue-700">
               Start a project
             </Link>
@@ -86,10 +86,10 @@ const HeaderWithCarousel = () => {
           <Link to="/projects" className="block py-2" onClick={toggleMenu}>Projects</Link>
           <Link to="/contact" className="block py-2" onClick={toggleMenu}>Contact Us</Link>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-400"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="hover:text-blue-400"><i className="fab fa-linkedin"></i></a>
-            <a href="#" className="hover:text-blue-400"><i className="fab fa-facebook"></i></a>
-            <a href="#" className="hover:text-blue-400"><i className="fab fa-youtube"></i></a>
+            <a href="/" className="hover:text-blue-400"><i className="fab fa-instagram"></i></a>
+            <a href="/" className="hover:text-blue-400"><i className="fab fa-linkedin"></i></a>
+            <a href="/" className="hover:text-blue-400"><i className="fab fa-facebook"></i></a>
+            <a href="/" className="hover:text-blue-400"><i className="fab fa-youtube"></i></a>
           </div>
         </div>
       )}
