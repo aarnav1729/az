@@ -109,13 +109,13 @@ const HeaderWithCarousel = () => {
           <img src={slide1} alt="Slide 1" className="w-full h-screen object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide2} alt="Slide 2" className="w-full h-screen object-cover" />
+          <img src={slide1} alt="Slide 2" className="w-full h-screen object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide3} alt="Slide 3" className="w-full h-screen object-cover" />
+          <img src={slide1} alt="Slide 3" className="w-full h-screen object-cover" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide4} alt="Slide 4" className="w-full h-screen object-cover" />
+          <img src={slide1} alt="Slide 4" className="w-full h-screen object-cover" />
         </SwiperSlide>
       </Swiper>
 
