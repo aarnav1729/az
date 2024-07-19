@@ -217,10 +217,10 @@ const HeaderWithCarousel = () => {
 
       <div className="absolute bottom-20 right-20 flex space-x-2 z-10">
         <div className="l">
-          <i className="fa-regular fa-circle-left fa-2xl"></i>
+            <i class="fa-solid fa-circle-chevron-left fa-2xl"></i>
         </div>
         <div className="r">
-          <i className="fa-regular fa-circle-right fa-2xl"></i>
+            <i class="fa-solid fa-circle-chevron-right fa-2xl"></i>
         </div>
       </div>
       <div className="swiper-pagination swiper-pagination-vertical swiper-pagination-right"></div>

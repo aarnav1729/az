@@ -3,7 +3,7 @@ import logo from '../assets/images/azl.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-12 mt-10">
+    <footer className="bg-black text-white py-12 mt-20">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
         <div className="md:w-1/4">
           <img src={logo} alt="ANZ Landscaping Company" className="h-40 mb-4" />
