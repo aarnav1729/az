@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove or set the correct path for background image */
+.header-bg {
+  /* background-image: url('/path/to/your/background-image.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-button {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.swiper-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.swiper-button-prev {
+  margin-right: 10px;
+}
+
+.swiper-button svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+.hamburger {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  .menu.active {
+    display: block;
+  }
+}
